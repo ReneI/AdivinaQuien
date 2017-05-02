@@ -1,0 +1,172 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lobster+Two');
+
+*{
+ margin: 0;
+ padding: 0;
+}
+
+body{
+	background: lightyellow;
+}
+.contenedor{
+
+width: 80%;
+margin: 20px auto;
+
+
+}
+
+
+header{
+width: 100%;
+border-top-color: Blue;
+border-radius: 10px;
+background: red;
+	padding: 30px 0;
+border: solid 1px ;
+box-shadow: 10px;
+
+}
+header .logo{
+	position: relative;
+	left: 25%;
+	width: 50%;
+
+
+}
+
+header  img{
+	display: inline-block;
+	width: 40%;
+}
+header h1{
+	text-shadow: 10px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 6px;
+
+}
+header h3{
+	padding: 0;
+	text-align: center;
+	color: green;
+}
+
+header h3 spam{
+	color: blue;
+}
+.entrada{
+	width: 100%;
+	background: floralwhite;
+	border: 6px solid gray;
+	border-radius: 10px;
+	color:darkolivegreen;
+	padding: 20px;
+	}
+	.bot{
+    position: static;
+	margin: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	}
+.boton{
+	text-align: center;
+	background: darkslateblue;
+	border-radius: 10px;
+	font-size: 20px;
+
+
+}
+.boton:hover{
+	text-align-last: 10px;
+	border: 1px solid gray;
+
+
+
+}
+.boton:active{
+color:coral;
+
+}
+.entrada span{
+	color:cornflowerblue;
+	font-style: italic;
+
+
+
+}
+
+.galeria{
+	
+margin-top: 20px;	
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: center;
+background:  rgba(255,0,0,0.1);
+border-top: 4px solid  yellow;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+
+.galeria h1{
+	text-align: center;
+	text-shadow: 20px;
+}
+.card{
+	background:whitesmoke;
+	border-bottom: 1 solid orangered;
+	border-radius: 10px;
+	width: 100px;	
+	padding: 10px;
+	margin-bottom: 20px;
+	margin: 10px;
+
+
+}
+.galeria span{
+	background: greenyellow;
+padding: 6px;
+	margin-bottom: 10px;
+	white-space: 10px;
+}
+
+.galeria .separador{
+	width: 100%;
+	background: peachpuff;
+	color: thistle;
+	font-size: 30px;
+	font-family: 'Lobster Two', cursive;
+	border-bottom-left-radius: 20px;
+	margin-bottom: 20px;
+ 
+}
+.galeria img{
+	display:block;
+
+	width: 78%;
+overflow: hidden;
+z-index: 1;
+}
+.galeria img:hover{
+
+	opacity: 0.6;
+	border: 1 solid;
+}
+
+.ganastes h1{
+	color:;
+
+}
+
+.reloj{
+float: left;
+ font-size: 40px;
+ font-family: Courier,sans-serif;
+ color: #363431;
+ margin-left: 10px;
+}
